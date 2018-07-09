@@ -16,6 +16,30 @@
     </head>
     <body>
         <h1>Olá Mundo!</h1>
+        <div id="map"></div>
+        <script>
+        function initMap() {
+            var myLatLng = {lat: -25.363, lng: 131.044};
+
+            // Create a map object and specify the DOM element
+            // for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 4
+            });
+
+            // Create a marker and set its position.
+            var marker = new google.maps.Marker({
+            map: map,
+            position: myLatLng,
+            title: 'TestMap - Australia'
+            });
+        }
+        </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADUk4Y_cwF5ObmSJTMZ8w3L2g6E-GZEE4
+&callback=initMap" async defer>
+        </script>
 
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

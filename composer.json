@@ -1,0 +1,8 @@
+{
+    "name": "bustop",
+    "type": "project",
+    "require": {
+        "php": ">=5.6",
+        "luizcesar/olho-vivo-api": "^2.2"
+    }
+}

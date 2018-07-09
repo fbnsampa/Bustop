@@ -15,7 +15,7 @@
         <link href="css/style.css" rel="stylesheet" media="screen">
     </head>
     <body>
-        <h1>Olá Mundo!</h1>
+        <h1>Olá Mundo! (branch: gmaps.gavinhos)</h1>
         <div id="map"></div>
         <script>
         function initMap() {

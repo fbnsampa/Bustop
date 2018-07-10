@@ -16,7 +16,7 @@
     </head>
     <body class="backgroundColor">
         <div class="container">
-        	<h1 class="text-center"><strong>BusTop</strong></h1>
+        	<h1 class="text-center light-white"><strong>BusTop</strong></h1>
             <hr/>
             <div class="col-xs-8" id="search">
             	<br>
@@ -56,7 +56,7 @@
         <div class="container" id="map">
             <hr/>
         	<div class="row">
-                <div class="col-xs-12 headerContainer">
+                <div class="col-xs-12 mapStyle">
                     <img src="img/westeros.jpg" alt="Imagem" class="img-responsive" />    
                 </div>
            </div>

@@ -203,17 +203,21 @@ Responsive navbar-brand image CSS
 }
 
 .headerColor{
-    background-color: #F6CC1E;
+    background-color: #f2f2f2;
 }
 
 .backgroundColor{
-    background-color: floralwhite;
+    background-color: #33001a;
 }
 
 .headerContainer{
     margin-left: 15px;
     margin-right: 15px;
     width: auto;
+}
+
+.mapStyle{
+	border: 0px solid #f2f2f2;
 }
 
 /* Larger logo - simply adjust top bottom padding to make logo larger */

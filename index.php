@@ -13,6 +13,14 @@
         
         <!-- adicionar CSS Personalizado-->
         <link href="css/style.css" rel="stylesheet" media="screen">
+        
+        <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;  /* The height is 400 pixels */
+            width: 100%;  /* The width is the width of the web page */
+        }
+        </style>
     </head>
     <body class="backgroundColor">
         <div class="container">
@@ -57,6 +65,8 @@
             <hr/>
         	<div class="row">
                 <div class="col-xs-12 mapStyle">
+                    <!-- <img src="img/westeros.jpg" alt="Imagem" class="img-responsive" />     -->
+                </div>
                 <script>
                     // Initialize and add the map
                     function initMap() {
@@ -77,8 +87,6 @@
                 <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADUk4Y_cwF5ObmSJTMZ8w3L2g6E-GZEE4&callback=initMap">
                 </script>
-                    <!-- <img src="img/westeros.jpg" alt="Imagem" class="img-responsive" />     -->
-                </div>
            </div>
         
         </div>

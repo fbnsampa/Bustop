@@ -68,14 +68,12 @@
                     <script>
                         // Initialize and add the map
                         function initMap() {
-                        var uluru = {lat: -25.344, lng: 131.036};
-                        var antiUluru = {lat: 25.344, lng: -131.036};
+                        var uluru = {lat: -23.483486, lng: -46.501887};
                         var map = new google.maps.Map(
                             document.getElementById('map'),
                             {zoom: 4, center: uluru}
                         );
-                        var marker1 = new google.maps.Marker({position: uluru, map: map});
-                        var marker2 = new google.maps.Marker({position: antiUluru, map: map});
+                        var marker = new google.maps.Marker({position: uluru, map: map});
                         }
                     </script>
                     

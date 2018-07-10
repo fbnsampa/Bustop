@@ -22,6 +22,9 @@
         <script src="js/main.js"></script>
         
         <?php
+
+        require './vendor/autoload.php'
+        
         use LuizCesar\OlhoVivoAPI\Bulletins\ArrivalForecast;
         use LuizCesar\OlhoVivoAPI\Entities\BusLine;
         use LuizCesar\OlhoVivoAPI\Entities\BusStop;

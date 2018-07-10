@@ -18,7 +18,7 @@
         /* Set the size of the div element that contains the map */
         #map {
             height: 400px;  /* The height is 400 pixels */
-            width: 80%;  /* The width is the width of the web page */
+            width: 90%;  /* The width is the width of the web page */
         }
         </style>
     </head>
